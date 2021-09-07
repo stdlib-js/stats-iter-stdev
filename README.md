@@ -138,6 +138,21 @@ console.log( 'stdev: %d.', s );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/iter/mean`][@stdlib/stats/iter/mean]: compute the arithmetic mean over all iterated values.
+-   [`@stdlib/stats/iter/variance`][@stdlib/stats/iter/variance]: compute the unbiased sample variance over all iterated values.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -198,6 +213,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [sample-stdev]: https://en.wikipedia.org/wiki/Standard_deviation
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+<!-- <related-links> -->
+
+[@stdlib/stats/iter/mean]: https://github.com/stdlib-js/stats-iter-mean
+
+[@stdlib/stats/iter/variance]: https://github.com/stdlib-js/stats-iter-variance
+
+<!-- </related-links> -->
 
 </section>
 
