@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2019 The Stdlib Authors.
@@ -16,16 +16,21 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Iterator } from '@stdlib/types/iter';
 
 /**
-* Compute the corrected sample standard deviation over all iterated values.
+* Computes the corrected sample standard deviation over all iterated values.
 *
-* @module @stdlib/stats-iter-stdev
+* @param iterator - input iterator
+* @param mean - known mean
+* @returns corrected sample standard deviation
 *
 * @example
-* var runif = require( '@stdlib/random-iter-uniform' );
-* var iterstdev = require( '@stdlib/stats-iter-stdev' );
+* var runif = require( `@stdlib/random/iter/uniform` );
 *
 * var rand = runif( -10.0, 10.0, {
 *     'iter': 100
@@ -34,12 +39,9 @@
 * var s = iterstdev( rand );
 * // returns <number>
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function iterstdev( iterator: Iterator, mean?: number ): number | null;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = iterstdev;
