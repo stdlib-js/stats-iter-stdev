@@ -65,7 +65,7 @@ s = \sqrt{\frac{1}{n-1} \sum_{i=0}^{n-1} ( x_i - \bar{x} )^2}
 ## Usage
 
 ```javascript
-import iterstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-stdev@esm/index.mjs';
+import iterstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-stdev@v0.1.1-esm/index.mjs';
 ```
 
 #### iterstdev( iterator\[, mean] )
@@ -123,7 +123,7 @@ var s = iterstdev( arr, 2.0 );
 <script type="module">
 
 import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import iterstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-stdev@esm/index.mjs';
+import iterstdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-stdev@v0.1.1-esm/index.mjs';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
